@@ -10,4 +10,8 @@ Examples:
 """
 def string_int(txt):
     # Your code here
+    return (int(txt))
 
+print(type(string_int("3")))
+# isinstance will check the value passed to what you are turning it into
+print(isinstance(string_int("3"), int))
